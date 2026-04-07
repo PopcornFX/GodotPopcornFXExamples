@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://q8pvygirxm5s"
+path="res://.godot/imported/43_Renderers.pkfx-e0dd7a2231ea2182e2537e1f66991be0.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/43_Renderers.pkfx"
+dest_files=["res://.godot/imported/43_Renderers.pkfx-e0dd7a2231ea2182e2537e1f66991be0.pkb"]
+
+[params]
+

@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://dipmt64q3lci5"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Content/ContentExamples/UnrealEngine/47_VolumetricFog.pkfx"
+
+[params]
+

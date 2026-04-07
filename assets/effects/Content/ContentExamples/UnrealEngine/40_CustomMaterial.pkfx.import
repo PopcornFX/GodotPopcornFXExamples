@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://dqnmol7l4vuxf"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Content/ContentExamples/UnrealEngine/40_CustomMaterial.pkfx"
+
+[params]
+

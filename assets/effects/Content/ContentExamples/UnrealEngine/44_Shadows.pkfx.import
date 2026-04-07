@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://i3hmp2qjsojk"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Content/ContentExamples/UnrealEngine/44_Shadows.pkfx"
+
+[params]
+

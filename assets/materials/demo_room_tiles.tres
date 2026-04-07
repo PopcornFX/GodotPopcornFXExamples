@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c0ana0bbmiwrx"]
+
+[ext_resource type="Texture2D" uid="uid://cpf78jl227m3u" path="res://assets/textures/T_RoomTiles_M.TGA" id="1_mjuoq"]
+[ext_resource type="Texture2D" uid="uid://bd5q6p1h4k0o" path="res://assets/textures/T_RoomTiles_N.TGA" id="1_ss11m"]
+
+[resource]
+albedo_color = Color(0.6862745, 0.6862745, 0.6862745, 1)
+roughness = 0.4
+normal_enabled = true
+normal_texture = ExtResource("1_ss11m")
+ao_enabled = true
+ao_texture = ExtResource("1_mjuoq")

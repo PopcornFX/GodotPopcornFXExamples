@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://dwbf4cc6x2agx"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Content/ContentExamples/UnrealEngine/55_Sequencer_Burst.pkfx"
+
+[params]
+

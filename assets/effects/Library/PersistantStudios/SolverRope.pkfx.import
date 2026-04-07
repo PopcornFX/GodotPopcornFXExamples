@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://oqlavmq8onud"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Library/PersistantStudios/SolverRope.pkfx"
+
+[params]
+

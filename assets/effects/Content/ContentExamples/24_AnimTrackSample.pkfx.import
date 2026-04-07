@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://b1u8cdjaatdxn"
+path="res://.godot/imported/24_AnimTrackSample.pkfx-cd17fd0ae808ca947796feb0ebf560b2.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/24_AnimTrackSample.pkfx"
+dest_files=["res://.godot/imported/24_AnimTrackSample.pkfx-cd17fd0ae808ca947796feb0ebf560b2.pkb"]
+
+[params]
+

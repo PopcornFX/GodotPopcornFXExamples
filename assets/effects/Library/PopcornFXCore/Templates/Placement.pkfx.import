@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://rcoohkolv54f"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Library/PopcornFXCore/Templates/Placement.pkfx"
+
+[params]
+

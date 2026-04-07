@@ -1,0 +1,14 @@
+[configuration]
+
+entry_symbol = "popcornfx_init"
+compatibility_minimum = 4.1
+
+[libraries]
+
+windows.editor.x86_64 = "libs/libpopcornfx.windows.editor.x86_64.dll"
+windows.debug.x86_64 = "libs/libpopcornfx.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "libs/libpopcornfx.windows.template_release.x86_64.dll"
+
+[icons]
+
+PKEmitter3D = "icons/PKEmitter3D.svg"

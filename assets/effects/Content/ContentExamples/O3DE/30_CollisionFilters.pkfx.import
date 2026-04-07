@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://ma5tdd7i0qhh"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Content/ContentExamples/O3DE/30_CollisionFilters.pkfx"
+
+[params]
+

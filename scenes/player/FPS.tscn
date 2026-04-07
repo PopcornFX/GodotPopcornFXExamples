@@ -1,0 +1,105 @@
+[gd_scene format=3 uid="uid://0051igigequi"]
+
+[ext_resource type="Script" uid="uid://bsn6k0mcm3lwb" path="res://scenes/player/fps.gd" id="2_7f1oh"]
+[ext_resource type="Script" uid="uid://d23nqnqn32hvh" path="res://scenes/player/first_person_character.gd" id="2_v73km"]
+[ext_resource type="PackedScene" uid="uid://dpopt70o60rtm" path="res://scenes/utils/interactor/interactor.tscn" id="3_w5klj"]
+[ext_resource type="Script" uid="uid://ym6qhgkrkpd1" path="res://ui.gd" id="4_baixm"]
+[ext_resource type="Texture2D" uid="uid://haxvd86eh041" path="res://assets/effects/Library/Persistant Studios/Common/Textures/PopcornFXLogo.png" id="5_re1g0"]
+
+[sub_resource type="CapsuleShape3D" id="1"]
+
+[sub_resource type="Shader" id="Shader_ehpy1"]
+code = "shader_type canvas_item;
+
+void vertex() {
+	// Called for every vertex the material is visible on.
+}
+
+void fragment() {
+	float val = texture(TEXTURE, UV).x;
+	COLOR = vec4(round(val));
+}
+
+//void light() {
+//	// Called for every pixel for every light affecting the CanvasItem.
+//	// Uncomment to replace the default light processing function with this one.
+//}
+"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nn8je"]
+shader = SubResource("Shader_ehpy1")
+
+[node name="FPS" type="CharacterBody3D" unique_id=1379369904 groups=["Player"]]
+script = ExtResource("2_7f1oh")
+
+[node name="CollisionShape" type="CollisionShape3D" parent="." unique_id=1988499495]
+transform = Transform3D(1, 0, 0, 0, 1, -1.192096e-07, 0, 1.192096e-07, 1, 0, 0, 0)
+shape = SubResource("1")
+
+[node name="Camera" type="Camera3D" parent="." unique_id=1904314304]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+fov = 90.0
+script = ExtResource("2_v73km")
+
+[node name="Interactor" parent="Camera" unique_id=1277985078 node_paths=PackedStringArray("player_character") instance=ExtResource("3_w5klj")]
+player_character = NodePath("../..")
+
+[node name="UI" type="Control" parent="." unique_id=1545308729]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_baixm")
+
+[node name="CursorContainer" type="CenterContainer" parent="UI" unique_id=398243632]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="UI/CursorContainer" unique_id=188173351]
+material = SubResource("ShaderMaterial_nn8je")
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+texture = ExtResource("5_re1g0")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="KeyboardKeyNote" type="RichTextLabel" parent="UI/CursorContainer/TextureRect" unique_id=1099955528]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -1.562
+anchor_top = 1.2185
+anchor_right = 2.5310001
+anchor_bottom = 2.344
+offset_left = -0.01599884
+offset_top = 0.00799942
+offset_right = 0.0079956055
+offset_bottom = -0.008003235
+theme_override_constants/outline_size = 5
+text = "Press E or LMB"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="ControllerKeyNote" type="RichTextLabel" parent="UI/CursorContainer/TextureRect" unique_id=2125204179]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -1.562
+anchor_top = 1.2185
+anchor_right = 2.5310001
+anchor_bottom = 2.344
+offset_left = -0.01599884
+offset_top = 0.00799942
+offset_right = 0.0079956055
+offset_bottom = -0.008003235
+theme_override_constants/outline_size = 5
+text = "Press"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pointed_object_changed" from="Camera/Interactor" to="." method="_on_interactor_pointed_object_changed"]

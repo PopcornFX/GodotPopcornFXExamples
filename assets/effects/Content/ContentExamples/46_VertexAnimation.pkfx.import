@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://r4mp3huw5bnq"
+path="res://.godot/imported/46_VertexAnimation.pkfx-92d0068888623a0b9529ef27b75df531.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/46_VertexAnimation.pkfx"
+dest_files=["res://.godot/imported/46_VertexAnimation.pkfx-92d0068888623a0b9529ef27b75df531.pkb"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://dqihaas4wlp0w"
+path="res://.godot/imported/25_TextSample.pkfx-45680ead36d3e1de640dd70aed748e41.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/25_TextSample.pkfx"
+dest_files=["res://.godot/imported/25_TextSample.pkfx-45680ead36d3e1de640dd70aed748e41.pkb"]
+
+[params]
+

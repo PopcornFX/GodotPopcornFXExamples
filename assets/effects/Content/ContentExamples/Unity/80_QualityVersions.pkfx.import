@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://dj61yer6lnykt"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Content/ContentExamples/Unity/80_QualityVersions.pkfx"
+
+[params]
+

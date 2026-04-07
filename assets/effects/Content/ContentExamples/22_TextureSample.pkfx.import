@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://d1gcy5dwlel1u"
+path="res://.godot/imported/22_TextureSample.pkfx-ed683018dd870d4849eff0f92aee4758.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/22_TextureSample.pkfx"
+dest_files=["res://.godot/imported/22_TextureSample.pkfx-ed683018dd870d4849eff0f92aee4758.pkb"]
+
+[params]
+

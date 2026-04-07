@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cqdc4prmwcjp5"]
+
+[ext_resource type="Script" uid="uid://dto6h1qcqi1h2" path="res://scenes/demo/demo_display.gd" id="1_clbpq"]
+
+[node name="Display" type="Node3D" unique_id=757203306]
+script = ExtResource("1_clbpq")
+type_val = 1
+
+[node name="Internal" type="Node3D" parent="." unique_id=1077257391]

@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://d1ecnysjyi06x"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Content/ContentExamples/UnrealEngine/41_DynamicParameters.pkfx"
+
+[params]
+

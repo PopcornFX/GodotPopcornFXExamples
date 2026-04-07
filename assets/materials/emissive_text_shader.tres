@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dux5mv57fqm3x"]
+
+[ext_resource type="Shader" uid="uid://4ym0ae5jhkk5" path="res://assets/materials/emissive_text.gdshader" id="1_me6y6"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_me6y6")
+shader_parameter/albedo = Color(0.70980394, 0.23529412, 0, 1)
+shader_parameter/emissive = Color(0.70980394, 0.23529412, 0, 1)

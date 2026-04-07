@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://c1t3u0sl86y3q"
+path="res://.godot/imported/05_BasicEmitter.pkfx-b1fe22befec441e70cea567b7f779a96.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/05_BasicEmitter.pkfx"
+dest_files=["res://.godot/imported/05_BasicEmitter.pkfx-b1fe22befec441e70cea567b7f779a96.pkb"]
+
+[params]
+

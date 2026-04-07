@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dcfkly8i27rdg"]
+
+[ext_resource type="Shader" uid="uid://cilf8rgw4m0ku" path="res://assets/materials/demo_wall_pattern.gdshader" id="1_vmobt"]
+[ext_resource type="Texture2D" uid="uid://biw6xw10q1x5l" path="res://assets/textures/T_PopcornFXDecal.TGA" id="2_3nigv"]
+[ext_resource type="Texture2D" uid="uid://bprd7k32i22lh" path="res://assets/textures/T_Pattern_M.PNG" id="3_033wy"]
+
+[resource]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("1_vmobt")
+shader_parameter/pattern_texture = ExtResource("3_033wy")
+shader_parameter/logo_texture = ExtResource("2_3nigv")
+shader_parameter/mirror_logo = false

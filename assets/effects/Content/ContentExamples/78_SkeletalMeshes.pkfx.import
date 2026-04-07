@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://cppv16pewfgq1"
+path="res://.godot/imported/78_SkeletalMeshes.pkfx-a8fc0117a37d37e006a854b94f1fc882.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/78_SkeletalMeshes.pkfx"
+dest_files=["res://.godot/imported/78_SkeletalMeshes.pkfx-a8fc0117a37d37e006a854b94f1fc882.pkb"]
+
+[params]
+

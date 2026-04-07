@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://crn24vjgpmhkg"
+path="res://.godot/imported/09_Prewarm.pkfx-e536c219cbad2843ccf865e3072d6582.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/09_Prewarm.pkfx"
+dest_files=["res://.godot/imported/09_Prewarm.pkfx-e536c219cbad2843ccf865e3072d6582.pkb"]
+
+[params]
+

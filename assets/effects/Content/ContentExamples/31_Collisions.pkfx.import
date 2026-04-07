@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://cvjk3hqht00m0"
+path="res://.godot/imported/31_Collisions.pkfx-826207b2e29cc70caad014bdd4dfc031.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/31_Collisions.pkfx"
+dest_files=["res://.godot/imported/31_Collisions.pkfx-826207b2e29cc70caad014bdd4dfc031.pkb"]
+
+[params]
+

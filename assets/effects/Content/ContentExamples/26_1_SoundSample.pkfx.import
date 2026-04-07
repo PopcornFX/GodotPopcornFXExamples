@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://bw4ykfdgofpi3"
+path="res://.godot/imported/26_1_SoundSample.pkfx-b9b726d278905f9b36a20a03f8b954f2.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/26_1_SoundSample.pkfx"
+dest_files=["res://.godot/imported/26_1_SoundSample.pkfx-b9b726d278905f9b36a20a03f8b954f2.pkb"]
+
+[params]
+

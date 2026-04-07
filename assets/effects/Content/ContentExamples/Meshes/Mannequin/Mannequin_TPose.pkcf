@@ -1,0 +1,6 @@
+Version = 2.23.0.25066;
+COvenBakeConfig_Mesh	$A2685575
+{
+	ImportAnimation = true;
+	ImportSkeleton = true;
+}

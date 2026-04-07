@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://mu0u7cyjp3ik"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Content/ContentExamples/Unity/44_SoundRenderers.pkfx"
+
+[params]
+

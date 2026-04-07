@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://dxkju54htu0k"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Content/ContentExamples/Unity/82_SoftParticles.pkfx"
+
+[params]
+

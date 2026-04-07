@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://bjgx3j6ofsvff"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Library/PopcornFXCore/Templates/CurvePresets.pkfx"
+
+[params]
+

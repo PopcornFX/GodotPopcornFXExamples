@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://peaf1ccqx50r"]
+
+[resource]
+blend_mode = 1
+cull_mode = 2
+disable_ambient_light = true
+vertex_color_use_as_albedo = true
+emission = Color(0.79595864, 0, 0, 1)
+ao_enabled = true
+ao_light_affect = 1.0
+backlight = Color(0.79607844, 0.827451, 0.83137256, 1)
+grow_amount = -0.952
+stencil_color = Color(0.7233747, 0.735357, 0.71932274, 1)

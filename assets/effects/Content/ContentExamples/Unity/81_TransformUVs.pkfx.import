@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://d2jkfb7hrkx5k"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Content/ContentExamples/Unity/81_TransformUVs.pkfx"
+
+[params]
+

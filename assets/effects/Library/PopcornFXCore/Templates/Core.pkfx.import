@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://gf131cxpib4q"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Library/PopcornFXCore/Templates/Core.pkfx"
+
+[params]
+

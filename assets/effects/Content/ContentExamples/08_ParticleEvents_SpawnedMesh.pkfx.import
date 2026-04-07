@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://djt1iuccuq1et"
+path="res://.godot/imported/08_ParticleEvents_SpawnedMesh.pkfx-8705a3b654a2ad41f134533f2056de51.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/08_ParticleEvents_SpawnedMesh.pkfx"
+dest_files=["res://.godot/imported/08_ParticleEvents_SpawnedMesh.pkfx-8705a3b654a2ad41f134533f2056de51.pkb"]
+
+[params]
+

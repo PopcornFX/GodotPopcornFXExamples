@@ -1,0 +1,6 @@
+Version = 2.23.0.25066;
+COvenBakeConfig_Mesh	$6B70D015
+{
+	ImportGeometry = false;
+	ImportAnimation = true;
+}

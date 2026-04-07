@@ -1,0 +1,13 @@
+[remap]
+
+importer="PopcornFXEffectImporter"
+type="PopcornFXEffect"
+uid="uid://uedyprlqdmjq"
+valid=false
+
+[deps]
+
+source_file="res://ContentExamples/Content/ContentExamples/Unity/83_AlphaRemap.pkfx"
+
+[params]
+

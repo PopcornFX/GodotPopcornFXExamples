@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://b47lug40l67y2"
+path="res://.godot/imported/07_Localspace.pkfx-25a4880587c08d8c218301caad9ef699.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/07_Localspace.pkfx"
+dest_files=["res://.godot/imported/07_Localspace.pkfx-25a4880587c08d8c218301caad9ef699.pkb"]
+
+[params]
+

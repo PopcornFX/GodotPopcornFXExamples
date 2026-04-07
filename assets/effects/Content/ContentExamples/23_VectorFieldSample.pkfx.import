@@ -1,0 +1,14 @@
+[remap]
+
+importer="PKEffectImporter"
+type="PKEffect"
+uid="uid://cyaivkc8rskul"
+path="res://.godot/imported/23_VectorFieldSample.pkfx-dec9a7ce05bf23aa1e68d0855dba689e.pkb"
+
+[deps]
+
+source_file="res://assets/effects/Content/ContentExamples/23_VectorFieldSample.pkfx"
+dest_files=["res://.godot/imported/23_VectorFieldSample.pkfx-dec9a7ce05bf23aa1e68d0855dba689e.pkb"]
+
+[params]
+

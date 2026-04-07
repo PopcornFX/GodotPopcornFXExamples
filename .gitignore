@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+assets/effects/Editor/Cache
+assets/effects/Godot/Cache
+
+*.pdb
+*.exp

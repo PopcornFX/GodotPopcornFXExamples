@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://dy05wlrnblplp"]
+
+[sub_resource type="GDScript" id="GDScript_xvrec"]
+script/source = "extends StaticBody3D
+
+signal activate
+
+func _input(event: InputEvent) -> void:
+	var mouseEvent := event as InputEventMouseButton
+	if mouseEvent == null || mouseEvent.button_index != 1 || not mouseEvent.pressed:
+		return
+
+	var space_state := get_world_3d().direct_space_state
+	var camera := get_viewport().get_camera_3d()
+
+	var pos := camera.global_position
+	var to := pos + (camera.global_basis  * Vector3.FORWARD * 1000)
+	var query := PhysicsRayQueryParameters3D.create(pos, to)
+	#DebugDraw3D.draw_line(pos, to, Color(1, 1, 0), 60)
+	var result = space_state.intersect_ray(query)
+	if result.collider == self:
+		activate.emit()
+"
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7gxdq"]
+size = Vector3(0.2, 1.6, 0.2)
+
+[sub_resource type="BoxMesh" id="BoxMesh_xvrec"]
+size = Vector3(0.2, 1.5, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xvrec"]
+albedo_color = Color(0.67, 0.0871, 0.0871, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_7gxdq"]
+material = SubResource("StandardMaterial3D_xvrec")
+radius = 0.1
+height = 0.1
+is_hemisphere = true
+
+[node name="TriggerButton" type="StaticBody3D" unique_id=174854059]
+script = SubResource("GDScript_xvrec")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1237449262]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, 0)
+shape = SubResource("BoxShape3D_7gxdq")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D" unique_id=869567715]
+mesh = SubResource("BoxMesh_xvrec")
+skeleton = NodePath("")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="CollisionShape3D" unique_id=217488277]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75031126, 0)
+mesh = SubResource("SphereMesh_7gxdq")

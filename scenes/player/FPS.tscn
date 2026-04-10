@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://d23nqnqn32hvh" path="res://scenes/player/first_person_character.gd" id="2_v73km"]
 [ext_resource type="PackedScene" uid="uid://dpopt70o60rtm" path="res://scenes/utils/interactor/interactor.tscn" id="3_w5klj"]
 [ext_resource type="Script" uid="uid://ym6qhgkrkpd1" path="res://ui.gd" id="4_baixm"]
-[ext_resource type="Texture2D" uid="uid://haxvd86eh041" path="res://assets/effects/Library/Persistant Studios/Common/Textures/PopcornFXLogo.png" id="5_re1g0"]
+[ext_resource type="Texture2D" uid="uid://pto6ojs8sm2o" path="res://assets/textures/icons/icon.png" id="5_v73km"]
 
 [sub_resource type="CapsuleShape3D" id="1"]
 
@@ -65,7 +65,7 @@ grow_vertical = 2
 material = SubResource("ShaderMaterial_nn8je")
 custom_minimum_size = Vector2(32, 32)
 layout_mode = 2
-texture = ExtResource("5_re1g0")
+texture = ExtResource("5_v73km")
 expand_mode = 1
 stretch_mode = 4
 
